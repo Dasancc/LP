@@ -38,7 +38,7 @@ nav ul li:hover ul a:hover { background-color: rgb(206, 162, 43)}
 
 article h1{ color: black;}
 body{ 
-   background-image: url("../Imagen_head/fondo.jpg");
+   background-image: url("../imagen_head/fondo.jpg");
    font-family: 'Inconsolata', monospace;
    font-family: 'Ramaraja', serif;}
 
