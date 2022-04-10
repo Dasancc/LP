@@ -63,7 +63,7 @@ body{
 .contenido> .footer,
 .container> .tabla,
 .container> .tabla1,
-.container> .formulario,
+.container> .contacto,
 .container> .relative-post{
    background-color: white;
    padding: 20px;
@@ -80,6 +80,11 @@ body{
    grid-column: span 3;
    color: black;
    border: 1px solid black;}
+
+.container>.contacto{
+      grid-column: span 5 ;
+      color: black;
+      border: 1px solid black;}
 
 .contenido>.article{
    background-color: rgb(190, 219, 58);
@@ -229,5 +234,34 @@ thead{
    height: 1px;
    background-color:black;}
 
+   form{
+      padding: 60px;
+      max-width: 400px;
+      background-color: rgb(190, 219, 58);
+      margin: 0 auto;
+    }
+    
+    form input, form textarea{
+      margin-bottom: 15px;
+      font-family: "Roboto", sans-serif;
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box; 
+      border: none; 
+      color: #525c66; 
+      font-size: 1em;
+      resize: none; 
+    }
+    
+    form button {
+       display: block;
+       background-color: rgb(206, 162, 43);
+       padding: 10px 45px 10px 45px;
+       border: 0;
+       font-size: 1em; 
+       color: 	white;
+      font-family: "Roboto", sans-serif;
+    }
 
+    textarea {  resize: none;}
 
