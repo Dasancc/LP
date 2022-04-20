@@ -39,68 +39,67 @@ nav ul li:hover ul {
 
 nav ul li:hover ul a:hover {
   background-color: white; }
-
-nav article h1 {
+article h1 {
   color: black; }
-
-nav body {
+body {
   background-image: url("../imagen_head/fondo.jpg");
   font-family: 'Inconsolata', monospace;
   font-family: 'Ramaraja', serif; }
 
-nav .title h1 {
+.title h1 {
   color: black;
   padding: 20px;
   text-align: left;
   font: 2.9em; }
 
-nav .container {
+.container {
   background-color: white;
   width: 90%;
   max-width: 1000px;
   margin: 1.6em auto;
   display: grid;
   gap: 1.6em;
-  grid-template-columns: repeat(5, 1fr); }
+  grid-template-columns: repeat(5, 1fr); 
+}
 
-nav .container > .contenido,
-nav .container > .title,
-nav .container > .aside,
-nav .contenido > .footer,
-nav .container > .tabla,
-nav .container > .tabla1,
-nav .container > .contacto,
-nav .container > .relative-post {
+.container > .contenido,
+.container > .title,
+.container > .aside,
+.contenido > .footer,
+.container > .tabla,
+.container > .tabla1,
+.container > .contacto,
+.container > .relative-post {
   background-color: white;
   padding: 20px;
   border: 1px solid white; }
 
-nav .container > .title,
-nav .container > .footer {
+.container > .title,
+.container > .footer {
   grid-column: 1/6;
   background-color: #bedb3a;
   color: black; }
 
-nav .container .contenido {
+.container .contenido {
   grid-column: span 3;
   color: black;
   border: 1px solid black; }
 
-nav .container > .contacto {
+.container > .contacto {
   grid-column: span 5;
   color: black;
   border: 1px solid black; }
 
-nav .contenido > .article {
+.contenido > .article {
   background-color: #bedb3a;
   padding: 20px;
   margin-top: 5px; }
 
-nav .contenido .article h1,
-nav .contenido .article p {
+.contenido .article h1,
+.contenido .article p {
   padding: 10px; }
 
-nav .container .aside {
+.container .aside {
   grid-column: span 2;
   gap: 1.6em;
   background-color: #bedb3a;
@@ -109,15 +108,15 @@ nav .container .aside {
   flex-direction: column;
   border: 1px solid black; }
 
-nav .container .aside img {
+.container .aside img {
   width: 90%;
   margin-top: 5px; }
 
-nav .container .aside h1 {
+.container .aside h1 {
   font: 2em;
   padding: 10px; }
 
-nav .container > .relative-post {
+.container > .relative-post {
   background-color: black;
   color: white;
   height: 180px;
@@ -126,82 +125,82 @@ nav .container > .relative-post {
   justify-content: center;
   transition: all 0.5s; }
 
-nav .container > .relative-post:hover {
+.container > .relative-post:hover {
   cursor: pointer;
   background-color: white;
   color: black; }
 
 @media screen and (max-width: 768px) {
-  nav .title {
+  .title {
     text-align: center; }
-  nav .container .contenido {
+  .container .contenido {
     grid-column: 1/-1; }
-  nav .container .aside {
+  .container .aside {
     grid-column: 1/-1; }
-  nav .container .relative-post {
+  .container .relative-post {
     grid-column: 1/-1; }
-  nav table {
+  table {
     display: block;
     overflow-x: auto; } }
 
 @media screen and (max-width: 368px) {
-  nav .title {
+  .title {
     text-align: center; }
-  nav .container .contenido {
+  .container .contenido {
     grid-column: 1/-1; }
-  nav .container .aside {
+  .container .aside {
     grid-column: 1/-1; }
-  nav .container .relative-post {
+  .container .relative-post {
     grid-column: 1/-1; }
-  nav table {
+  table {
     display: block;
     overflow-x: auto; } }
 
-nav .container > .tabla {
+.container > .tabla {
   background-color: #bedb3a;
   width: auto;
   text-align: center;
   grid-column: span 3;
   border: 1px solid black; }
 
-nav .container > .tabla1 {
+.container > .tabla1 {
   grid-column: span 2;
   width: auto;
   background-color: #bedb3a;
   color: black;
   border: 1px solid black; }
 
-nav th, nav td {
+th, nav td {
   padding: 15px; }
 
-nav thead {
+thead {
   background-color: white;
   color: black; }
 
-nav .titulotabla {
+.titulotabla {
   color: black;
   font-size: 1.6em; }
 
-nav .container > .titulopag {
+.container > .titulopag {
   grid-column: 1/6;
   background-color: #bedb3a; }
 
-nav .container__footer {
+.container__footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; }
 
-nav .box__footer {
+.box__footer {
   display: flex;
   flex-direction: column;
   padding: 40px; }
 
-nav .box__footer h2 {
+.box__footer h2 {
   margin-bottom: 30px;
   color: black;
   font-weight: 300px; }
 
-nav .box__footer a {
+.box__footer a {
   margin-top: 10px;
   color: black;
   font-weight: 200;
@@ -209,34 +208,34 @@ nav .box__footer a {
   text-decoration: none;
   font-family: sans-serif; }
 
-nav .box__footer a:hover {
+.box__footer a:hover {
   opacity: 0.8; }
 
-nav .box__footer a .fab {
+.box__footer a .fab {
   font-size: 20px; }
 
-nav .box__copyright {
+.box__copyright {
   max-width: 1200px;
   margin: auto;
   text-align: center;
   padding: 0px 40px; }
 
-nav .box__copyright hr p b {
+.box__copyright hr p b {
   margin-top: 20px;
   color: black; }
 
-nav .box__copyright hr {
+.box__copyright hr {
   border: none;
   height: 1px;
   background-color: black; }
 
-nav form {
+form {
   padding: 60px;
   max-width: 400px;
   background-color: #bedb3a;
   margin: 0 auto; }
 
-nav form input form textarea {
+form input form textarea {
   margin-bottom: 15px;
   font-family: "Roboto", sans-serif;
   width: 100%;
@@ -247,7 +246,7 @@ nav form input form textarea {
   font-size: 1em;
   resize: none; }
 
-nav form button {
+form button {
   display: block;
   background-color: #cea22b;
   padding: 10px 45px 10px 45px;
@@ -256,5 +255,5 @@ nav form button {
   color: white;
   font-family: "Roboto", sans-serif; }
 
-nav textarea {
+textarea {
   resize: none; }
