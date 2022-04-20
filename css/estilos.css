@@ -38,7 +38,8 @@ nav ul li:hover ul {
   display: block; }
 
 nav ul li:hover ul a:hover {
-  background-color: white; }
+  background-color: #cea22b; }
+
 article h1 {
   color: black; }
 body {
