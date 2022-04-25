@@ -1,0 +1,24 @@
+body{ 
+    background-image: url("../imagen_head/fondo.jpg");
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Ramaraja', serif;
+ }
+ 
+ .title{
+     h1{ 
+         color:map-get($color, text-principal);
+         padding: 20px;
+         text-align:left;
+         font: 2.9em;
+     }
+ }
+ 
+ .container{
+    background-color:map-get($color, primary);
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    display: grid;
+    gap: 1.6em;
+    grid-template-columns: repeat(5,1fr);
+ }

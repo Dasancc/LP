@@ -1,0 +1,87 @@
+.sinsubrayado{ 
+    text-decoration: none;
+}
+   
+nav {
+    ul {
+        list-style-type: none;
+        font-size: 0;
+        padding: 0;
+    }
+}
+
+nav {
+    li{
+        color:map-get($color, text-nav); 
+        display: inline-block;
+        width: 25% ; 
+        position: relative;
+    }
+}
+
+nav {
+    a {
+        font-size: 14px;
+        text-align: center;
+        display: block;
+        color: map-get($color, primary);
+        background-color:map-get($color, primary);
+        padding: 4px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+}
+ nav{
+    a:hover{
+        background-color:map-get($color, secondary);
+    }
+        
+}
+  
+nav{
+     ul{
+        ul { 
+            width: 100%;
+            position: absolute;
+            display: none;
+        }
+    }
+}
+nav{
+    ul{
+        ul{
+            li{ 
+                width: 100%;
+            }
+        }
+    }
+}
+  
+nav{
+    ul{
+        li:hover{
+            ul {
+                display:block;
+            }
+            
+        }
+    }
+}
+  
+nav{
+    ul{
+        li:hover{
+            ul {
+                a:hover{ 
+                background-color:map-get($color, secondary);
+            }    
+        }
+    }
+}
+
+article{
+    h1{ 
+        color:map-get($color, text-principal);
+    }
+}

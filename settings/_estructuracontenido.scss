@@ -1,0 +1,120 @@
+
+@mixin formato-flex { 
+    display: flex; 
+    justify-content: center; 
+
+}
+.container> .contenido{
+    background-color:map-get($color, text-nav);
+    padding: 20px;
+    border: 1px solid map-get($color, text-nav);
+}
+.container> .title{
+    @extend .contenido;
+}
+.container> .aside{
+    @extend .contenido;
+}
+.contenido> .footer{
+    @extend .contenido;
+}
+.container> .tabla{
+    @extend .contenido;
+}
+.container> .tabla1{
+    @extend .contenido;
+}
+.container> .contacto{
+    @extend .contenido;
+}
+.container> .relative-post{
+ @extend .contenido
+}
+
+.container> .title,
+.container> .footer{
+   grid-column: 1/6;
+   background-color:map-get($color, primary);
+   color: black;
+}
+
+.container{
+    .contenido{
+        grid-column: span 3;
+        color:map-get($color, text-principal);
+        border: 1px solid map-get($color, text-principal);
+    }
+}
+
+.container>.contacto{
+      grid-column: span 5 ;
+      color:map-get($color, text-principal);
+      border: 1px solid map-get($color, text-principal);}
+
+.contenido>.article{
+   background-color:map-get($color, primary);
+   padding: 20px;
+   margin-top: 5px;}
+
+.contenido .article h1,
+.contenido .article p {
+   padding: 10px;}
+
+.container .aside {
+   grid-column: span 2;
+   gap: 1.6em;
+   background-color:map-get($color, primary);
+   color: map-get($color, text-principal);
+   flex-direction: column;
+   border: 1px solid map-get($color, text-principal);
+    @include formato-flex;}
+
+.container .aside img {
+   width: 90%;
+   margin-top: 5px;}
+
+.container .aside h1{
+    font: 2em;
+   padding: 10px;
+}
+
+.container >.relative-post {
+    background-color:map-get($color, text-principal);
+    color: map-get($color, text-nav);
+    height: 180px;
+    @include formato-flex;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.container>.relative-post:hover {
+   cursor: pointer;
+   background-color:map-get($color, text-nav);
+   color:map-get($color, text-principal);
+}
+.container> .tabla{
+    background-color:map-get($color, primary);
+    width: auto;
+    text-align: center;
+    grid-column: span 5;
+    border: 1px solid map-get($color, text-principal);
+ }
+ 
+ 
+ .container> .tabla1{
+    grid-column: span 5;
+    width: auto;
+    background-color:map-get($color, primary);
+    color: map-get($color, text-principal);
+    border: 1px solid map-get($color, text-principal);
+ }
+ .container>.titulopag{
+    grid-column: 1/6;
+    background-color:map-get($color, primary);
+ }
+ 
+ .container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+ }

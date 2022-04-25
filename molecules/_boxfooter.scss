@@ -1,0 +1,45 @@
+.box__footer{
+    display: flex;
+    flex-direction:column;
+    padding: 40px;
+ }
+ 
+ .box__footer h2{
+    margin-bottom: 30px;
+    color:map-get($color, text-principal);
+    font-weight: 300px
+ }
+ 
+ .box__footer a{
+    margin-top: 10px;
+    color:map-get($color, text-principal);
+    font-weight: 200;
+    text-transform: uppercase;
+     text-decoration: none;
+     font-family: sans-serif
+ }
+ 
+ .box__footer a:hover{ 
+     opacity: 0.8;
+ }
+ 
+ .box__footer a .fab{
+    font-size: 20px;
+ }
+ 
+ .box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px
+ }
+ 
+ .box__copyright hr p b{
+    margin-top: 20px;
+    color: map-get($color, text-nav);}
+ 
+ .box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color:map-get($color, text-principal);
+ }

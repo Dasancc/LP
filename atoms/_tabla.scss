@@ -1,0 +1,13 @@
+th, td{
+    padding: 15px;
+ }
+ 
+ thead{
+    background-color:map-get($color, text-nav);
+    color:map-get($color, text-principal);
+ }
+ 
+ .titulotabla{
+    color:map-get($color, text-principal);
+    font-size: 1.6em;
+ }
